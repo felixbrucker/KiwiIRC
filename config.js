@@ -19,7 +19,7 @@ conf.servers = [];
 
 // Example server block
 conf.servers.push({
-    port:   $PORT,
+    port:   process.env.PORT || 80,
     address: "0.0.0.0"
 });
 
