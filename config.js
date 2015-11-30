@@ -36,7 +36,7 @@ conf.servers.push({
 // Network interface for outgoing connections
 conf.outgoing_address = {
     IPv4: '0.0.0.0'
-    //IPv6: '::'
+    IPv6: '::'
 };
 
 
@@ -160,7 +160,7 @@ conf.reject_unauthorised_certificates = false;
  */
 
 // Whitelisted HTTP proxies in CIDR format
-conf.http_proxies = ["127.0.0.1/32"];
+conf.http_proxies = ["0.0.0.0/0"];
 
 // Header that contains the real-ip from the HTTP proxy
 conf.http_proxy_ip_header = "x-forwarded-for";
