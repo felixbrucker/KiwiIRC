@@ -35,7 +35,7 @@ conf.servers.push({
 
 // Network interface for outgoing connections
 conf.outgoing_address = {
-    IPv4: '0.0.0.0'
+    IPv4: '0.0.0.0',
     IPv6: '::'
 };
 
